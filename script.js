@@ -18,7 +18,7 @@ const fetchPosts = async () => {
     try {
         const response = await fetch(url);
         const data = await response.json();//axios would pass it for us automatically, would not need this line
-        console.log(data);
+        // console.log(data);
 
         //display to DOM
         const result = data.map((post) => {
