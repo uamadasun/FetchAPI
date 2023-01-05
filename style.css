@@ -2,9 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Space Mono";
 }
 button {
-  background-color: #4caf50;
+  background-color: pink;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -15,7 +16,7 @@ button {
 .title {
   font-size: 30px;
   font-weight: bold;
-  color: #4caf50;
+  color: hotpink;
   text-align: center;
   margin: 20px;
 }
