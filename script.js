@@ -2,8 +2,9 @@ const container = document.querySelector(".container");
 const title = document.querySelector(".title");
 const btn = document.querySelector("#btn");
 
-//Making http request
-//1. get the endpoint of the server/api
+//---Making http request---//
+
+//get the endpoint of the server/api
 const url = "https://jsonplaceholder.typicode.com/posts";
 
 // fetch(url)
@@ -41,5 +42,4 @@ const fetchPosts = async () => {
     }
 }
 fetchPosts();
-
 btn.addEventListener('click', fetchPosts);
